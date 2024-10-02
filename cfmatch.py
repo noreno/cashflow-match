@@ -33,7 +33,7 @@ from datetime import date, timedelta
 # F: T x n matrix of cash flows
 # R: T x T matrix where R_tt = -1, R_t+1,t = 1, and R_ts = 0 otherwise
 
-# Set up dataframe for bond payoff among other things
+# Set up data frame for bond payoff among other things
 def bondStruct(F, N, c, bt):
     ex = np.ones(N)
     if bt == 'T':
