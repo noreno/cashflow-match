@@ -1,2 +1,2 @@
 # cashflow-match
-Cashflow Matching
+Cashflow Matching using Linear Programming
