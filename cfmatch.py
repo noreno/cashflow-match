@@ -15,7 +15,7 @@ from datetime import date, timedelta
 # T 	number of liabilities
 # n 	number of instruments (bonds)
 # l_t 	liability at time t, i = 1, 2, .., T
-# p_i 	price of bond i, i = 1, 2, ..., m
+# p_i 	price of bond i, i = 1, 2, ..., n
 # cr_i 	coupon rate of bond i
 # mt_i 	maturity time of bond i
 # f_ti	cash flow of bond i at time t
