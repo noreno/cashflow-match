@@ -24,7 +24,7 @@ from datetime import date, timedelta
 # Decision variables:
 # x_i	amount held in bond i (at time 0)
 # s_t	surplus held at time t (note s_0 = 0)
-# Number of decision variables: 2n
+# Number of decision variables: n + T
 
 # Optimization problem with constraints:
 # Minimize total bond price = sum_i x_i p_i = p'x
